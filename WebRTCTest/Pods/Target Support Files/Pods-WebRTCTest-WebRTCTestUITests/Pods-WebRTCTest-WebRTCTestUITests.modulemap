@@ -1,0 +1,6 @@
+framework module Pods_WebRTCTest_WebRTCTestUITests {
+  umbrella header "Pods-WebRTCTest-WebRTCTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

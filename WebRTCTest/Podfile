@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WebRTCTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WebRTCTest
+  platform :ios, '9.0'
+  pod 'GoogleWebRTC'
+
+  target 'WebRTCTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WebRTCTestUITests' do
+    # Pods for testing
+  end
+
+end
